@@ -1,0 +1,9 @@
+DateTime:2015/03/24 13:33:53export PS1='[\u@192.168.50.149 \W]\$ ';clear
+DateTime:2015/03/24 13:33:53export PS1='[\u@192.168.50.149 \W]\$ ';clear
+export PS1='[\u@192.168.50.149 \W]\$ ';clear[K[xwluan@localhost ~]$ export PS1='[\u@192.168.50.149 \W]\$ ';clear
+[H[2J]0;xwluan@localhost:~[xwluan@192.168.50.149 ~]$ ls
+]0;xwluan@localhost:~[xwluan@192.168.50.149 ~]$ sudo su
+]0;xwluan@localhost:~[xwluan@192.168.50.149 ~]$ sudo pwd
+]0;xwluan@localhost:~[xwluan@192.168.50.149 ~]$ sudo pwd
+]0;xwluan@localhost:~[xwluan@192.168.50.149 ~]$ ls
+]0;xwluan@localhost:~[xwluan@192.168.50.149 ~]$ exit

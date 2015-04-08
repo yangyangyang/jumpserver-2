@@ -1,0 +1,6 @@
+DateTime:2015/03/24 11:35:11export PS1='[\u@192.168.50.149 \W]\$ ';clear
+DateTime:2015/03/24 11:35:11export PS1='[\u@192.168.50.149 \W]\$ ';clear
+export PS1='[\u@192.168.50.149 \W]\$ ';clear
+[H[2J]0;luan@localhost:~[luan@192.168.50.149 ~]$ ifconfig
+]0;luan@localhost:~[luan@192.168.50.149 ~]$ quit
+]0;luan@localhost:~[luan@192.168.50.149 ~]$ exit

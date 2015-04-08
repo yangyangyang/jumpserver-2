@@ -1,0 +1,55 @@
+
+DateTime:2015/03/24 11:35:25export PS1='[\u@192.168.50.149 \W]\$ ';clear
+export PS1='[\u@192.168.50.149 \W]\$ ';clear
+[H[2J]0;luan@localhost:~[luan@192.168.50.149 ~]$ sudo
+usage: sudo [-D level] -h | -K | -k | -V
+usage: sudo -v [-AknS] [-D level] [-g groupname|#gid] [-p prompt] [-u user
+            name|#uid]
+usage: sudo -l[l] [-AknS] [-D level] [-g groupname|#gid] [-p prompt] [-U user
+            name] [-u user name|#uid] [-g groupname|#gid] [command]
+usage: sudo [-AbEHknPS] [-r role] [-t type] [-C fd] [-D level] [-g
+            groupname|#gid] [-p prompt] [-u user name|#uid] [-g groupname|#gid]
+            [VAR=value] [-i|-s] [<command>]
+usage: sudo -e [-AknS] [-r role] [-t type] [-C fd] [-D level] [-g
+            groupname|#gid] [-p prompt] [-u user name|#uid] file ...
+]0;luan@localhost:~[luan@192.168.50.149 ~]$ sudo su
+
+We trust you have received the usual lecture from the local System
+Administrator. It usually boils down to these three things:
+
+    #1) Respect the privacy of others.
+    #2) Think before you type.
+    #3) With great power comes great responsibility.
+
+[sudo] password for luan: 
+Sorry, try again.
+[sudo] password for luan: 
+Sorry, try again.
+[sudo] password for luan: 
+Sorry, try again.
+sudo：3 次错误密码尝试
+]0;luan@localhost:~[luan@192.168.50.149 ~]$ sudo su
+[sudo] password for luan: 
+Sorry, try again.
+[sudo] password for luan: 
+Sorry, try again.
+[sudo] password for luan: 
+Sorry, try again.
+sudo：3 次错误密码尝试
+]0;luan@localhost:~[luan@192.168.50.149 ~]$ sudo su
+[sudo] password for luan: 
+Sorry, try again.
+[sudo] password for luan: 
+Sorry, try again.
+[sudo] password for luan: 
+sudo：2 次错误密码尝试
+]0;luan@localhost:~[luan@192.168.50.149 ~]$ sudo ls /
+[sudo] password for luan: 
+Sorry, try again.
+[sudo] password for luan: 
+Sorry, try again.
+[sudo] password for luan: 
+Sorry, try again.
+sudo：3 次错误密码尝试
+]0;luan@localhost:~[luan@192.168.50.149 ~]$ ls
+]0;luan@localhost:~[luan@192.168.50.149 ~]$ 

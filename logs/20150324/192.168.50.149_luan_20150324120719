@@ -1,0 +1,15 @@
+
+DateTime:2015/03/24 12:07:19export PS1='[\u@192.168.50.149 \W]\$ ';clear
+export PS1='[\u@192.168.50.149 \W]\$ ';clear[K[luan@localhost ~]$ export PS1='[\u@192.168.50.149 \W]\$ ';clear
+[H[2J]0;luan@localhost:~[luan@192.168.50.149 ~]$ sudo ls /root
+[sudo] password for luan: 
+Sorry, try again.
+[sudo] password for luan: 
+Sorry, try again.
+[sudo] password for luan: 
+Sorry, try again.
+sudo：3 次错误密码尝试
+]0;luan@localhost:~[luan@192.168.50.149 ~]$ exit
+logout
+
+EndTime: 2015/03/24 12:07:47

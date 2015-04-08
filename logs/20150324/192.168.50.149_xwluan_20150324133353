@@ -1,0 +1,18 @@
+
+DateTime:2015/03/24 13:33:53export PS1='[\u@192.168.50.149 \W]\$ ';clear
+export PS1='[\u@192.168.50.149 \W]\$ ';clear[K[xwluan@localhost ~]$ export PS1='[\u@192.168.50.149 \W]\$ ';clear
+[H[2J]0;xwluan@localhost:~[xwluan@192.168.50.149 ~]$ ls
+]0;xwluan@localhost:~[xwluan@192.168.50.149 ~]$ sudo su
+[sudo] password for xwluan: 
+]0;xwluan@localhost:~[xwluan@192.168.50.149 ~]$ sudo pwd
+[sudo] password for xwluan: 
+]0;xwluan@localhost:~[xwluan@192.168.50.149 ~]$ sudo pwd
+[sudo] password for xwluan: 
+Sorry, try again.
+[sudo] password for xwluan: 
+sudo：1 次错误密码尝试
+]0;xwluan@localhost:~[xwluan@192.168.50.149 ~]$ ls
+]0;xwluan@localhost:~[xwluan@192.168.50.149 ~]$ exit
+logout
+
+EndTime: 2015/03/24 14:09:50

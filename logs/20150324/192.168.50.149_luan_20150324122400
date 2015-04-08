@@ -1,0 +1,9 @@
+
+DateTime:2015/03/24 12:24:00export PS1='[\u@192.168.50.149 \W]\$ ';clear
+export PS1='[\u@192.168.50.149 \W]\$ ';clear[K[luan@localhost ~]$ export PS1='[\u@192.168.50.149 \W]\$ ';clear
+[H[2J]0;luan@localhost:~[luan@192.168.50.149 ~]$ sudo ls /
+[sudo] password for luan: 
+]0;luan@localhost:~[luan@192.168.50.149 ~]$ exit
+logout
+
+EndTime: 2015/03/24 12:24:11

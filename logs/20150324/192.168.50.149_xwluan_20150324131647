@@ -1,0 +1,22 @@
+
+DateTime:2015/03/24 13:16:47export PS1='[\u@192.168.50.149 \W]\$ ';clear
+export PS1='[\u@192.168.50.149 \W]\$ ';clear[K[xwluan@localhost ~]$ export PS1='[\u@192.168.50.149 \W]\$ ';clear
+[H[2J]0;xwluan@localhost:~[xwluan@192.168.50.149 ~]$ sudo
+usage: sudo [-D level] -h | -K | -k | -V
+usage: sudo -v [-AknS] [-D level] [-g groupname|#gid] [-p prompt] [-u user name|#uid]
+usage: sudo -l[l] [-AknS] [-D level] [-g groupname|#gid] [-p prompt] [-U user name] [-u user name|#uid] [-g groupname|#gid] [command]
+usage: sudo [-AbEHknPS] [-r role] [-t type] [-C fd] [-D level] [-g groupname|#gid] [-p prompt] [-u user name|#uid] [-g groupname|#gid] [VAR=value]
+            [-i|-s] [<command>]
+usage: sudo -e [-AknS] [-r role] [-t type] [-C fd] [-D level] [-g groupname|#gid] [-p prompt] [-u user name|#uid] file ...
+]0;xwluan@localhost:~[xwluan@192.168.50.149 ~]$ sudo -[Kpwd 
+[sudo] password for xwluan: 
+Sorry, try again.
+[sudo] password for xwluan: 
+Sorry, try again.
+[sudo] password for xwluan: 
+Sorry, try again.
+sudo：3 次错误密码尝试
+]0;xwluan@localhost:~[xwluan@192.168.50.149 ~]$ exit
+logout
+
+EndTime: 2015/03/24 13:18:39

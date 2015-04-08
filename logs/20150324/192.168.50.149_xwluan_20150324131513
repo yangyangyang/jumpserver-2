@@ -1,0 +1,42 @@
+
+DateTime:2015/03/24 13:15:13export PS1='[\u@192.168.50.149 \W]\$ ';clear
+export PS1='[\u@192.168.50.149 \W]\$ ';clear[K[xwluan@localhost ~]$ export PS1='[\u@192.168.50.149 \W]\$ ';clear
+[H[2J]0;xwluan@localhost:~[xwluan@192.168.50.149 ~]$ sudo su
+
+We trust you have received the usual lecture from the local System
+Administrator. It usually boils down to these three things:
+
+    #1) Respect the privacy of others.
+    #2) Think before you type.
+    #3) With great power comes great responsibility.
+
+[sudo] password for xwluan: 
+Sorry, try again.
+[sudo] password for xwluan: 
+Sorry, try again.
+[sudo] password for xwluan: 
+Sorry, try again.
+sudo：3 次错误密码尝试
+]0;xwluan@localhost:~[xwluan@192.168.50.149 ~]$ sudo /bin/pwd
+[sudo] password for xwluan: 
+Sorry, try again.
+[sudo] password for xwluan: 
+Sorry, try again.
+[sudo] password for xwluan: 
+Sorry, try again.
+sudo：3 次错误密码尝试
+]0;xwluan@localhost:~[xwluan@192.168.50.149 ~]$ ssh root[K[K[K[Kxwluan@192.168.50.149
+The authenticity of host '192.168.50.149 (192.168.50.149)' can't be established.
+RSA key fingerprint is 07:bd:57:c8:c7:a0:2e:fb:f7:77:59:b7:ce:bc:9d:a8.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added '192.168.50.149' (RSA) to the list of known hosts.
+xwluan@192.168.50.149's password: 
+Permission denied, please try again.
+xwluan@192.168.50.149's password: 
+Permission denied, please try again.
+xwluan@192.168.50.149's password: 
+Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password).
+]0;xwluan@localhost:~[xwluan@192.168.50.149 ~]$ exit
+logout
+
+EndTime: 2015/03/24 13:16:46

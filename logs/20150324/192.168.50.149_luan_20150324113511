@@ -1,0 +1,28 @@
+
+DateTime:2015/03/24 11:35:11export PS1='[\u@192.168.50.149 \W]\$ ';clear
+export PS1='[\u@192.168.50.149 \W]\$ ';clear
+[H[2J]0;luan@localhost:~[luan@192.168.50.149 ~]$ ifconfig
+eth0      Link encap:Ethernet  HWaddr 52:54:00:1F:95:9B  
+          inet addr:192.168.50.149  Bcast:192.168.50.255  Mask:255.255.255.0
+          inet6 addr: fe80::5054:ff:fe1f:959b/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:18403 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:10354 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:36919989 (35.2 MiB)  TX bytes:658980 (643.5 KiB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:16 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:16 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:1388 (1.3 KiB)  TX bytes:1388 (1.3 KiB)
+
+]0;luan@localhost:~[luan@192.168.50.149 ~]$ quit
+-bash: quit: command not found
+]0;luan@localhost:~[luan@192.168.50.149 ~]$ exit
+logout
+
+EndTime: 2015/03/24 11:35:20
