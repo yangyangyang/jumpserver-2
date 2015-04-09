@@ -36,7 +36,7 @@ class Assets(models.Model):
     comment = models.CharField(max_length=100, blank=True, null=True)
 
     def __unicode__(self):
-        return '%s ' % self.ip
+        return '%d %s ' % (self.id,self.ip)
 
 
 class AssetsUser(models.Model):
