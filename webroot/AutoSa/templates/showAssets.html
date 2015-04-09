@@ -11,13 +11,16 @@
             <tr>
                 <th><input onclick="selectAll()" type="checkbox"   name="select_all" style="select_all" id="select_all"/></th>
                 <th>ID</th>
+                <th>IP</th>
                 <th>项目</th>
                 <th>分类</th>
-                <th>IP</th>
+                <th>内存</th>
+                <th>磁盘</th>
                 <th>Port</th>
                 <th>机柜</th>
                 <th>状态</th>
                 <th>类型</th>
+                <th>实例名</th>
                 <th>备注</th>
 
             </tr>
@@ -27,13 +30,16 @@
             <tr>
                 <td style="width: 13px"><input type="checkbox" name="selected" value="{{ asset.id }}"></td>
                 <td style="width: 5px">{{ asset.id }}</td>
+                <td style="width: 90px">{{ asset.ip }}</td>
                 <td style="width: 90px">{{ asset.app }}</td>
                 <td style="width: 90px">{{ asset.sort }}</td>
-                <td style="width: 90px">{{ asset.ip }}</td>
+                <td style="width: 90px">{{ asset.memsize }}</td>
+                <td style="width: 90px">{{ asset.disknum }}</td>
                 <td style="width: 90px">{{ asset.port }}</td>
                 <td style="width: 90px">{{ asset.idc }}</td>
                 <td style="width: 90px">{{ asset.status }}</td>
                 <td style="width: 90px">{{ asset.type }}</td>
+                <td style="width: 90px">{{ asset.instance }}</td>
                 <td style="width: 90px">{{ asset.comment }}</td>
             </tr>
             {% endfor %}
