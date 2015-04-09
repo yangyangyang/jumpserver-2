@@ -26,10 +26,13 @@ class Assets(models.Model):
     app = models.CharField(max_length=30)
     sort = models.ForeignKey(SERV_SORT)
     ip = models.CharField(max_length=20)
+    memsize = models.IntegerField(max_length=4)
+    disknum = models.IntegerField(max_length=4)
     port = models.IntegerField(max_length=5)
     idc = models.ForeignKey(IDC)
     status = models.ForeignKey(SERV_STATUS)
     type = models.CharField(max_length=20)
+    instance = models.CharField(max_length=20)
     comment = models.CharField(max_length=100, blank=True, null=True)
 
     def __unicode__(self):

@@ -838,10 +838,13 @@ def addAssets(request):
         app = request.POST.get('app')
         sort = request.POST.get('serv_sort')
         ip = request.POST.get('ip')
+        memsize = request.POST.get('memsize')
+        disknum = request.POST.get('disknum')
         port = request.POST.get('port')
         idc = request.POST.get('idc')
         status = request.POST.get('serv_status')
         type = request.POST.get('type')
+        instance = request.POST.get('instance')
         comment = request.POST.get('comment')
 
         if '' in (ip, port, idc):
@@ -852,7 +855,7 @@ def addAssets(request):
             idc = IDC.objects.get(id=idc)
             status = SERV_STATUS(id=status)
             sort = SERV_SORT.objects.get(id=sort)
-            asset = Assets(ip=ip, app=app, sort=sort, port=port, idc=idc, status=status, type=type, comment=comment)
+            asset = Assets(ip=ip, app=app, sort=sort, memsize=memsize, disknum=disknum, instance=instance, port=port, idc=idc, status=status, type=type, comment=comment)
             asset.save()
             msg = u'%s  添加成功' % ip
 
