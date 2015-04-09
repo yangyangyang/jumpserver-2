@@ -41,6 +41,18 @@
                 </div>
             </div>
             <div class="form-group">
+                <label for="ip" class="col-sm-2 control-label">内存(G)<span style="color: red"> </span></label>
+                <div class="col-sm-4">
+                    <input type="text" class="form-control" id="memsize" name="memsize" placeholder="32">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="ip" class="col-sm-2 control-label">磁盘数量(个)<span style="color: red"> </span></label>
+                <div class="col-sm-4">
+                    <input type="text" class="form-control" id="disknum" name="disknum" placeholder="4">
+                </div>
+            </div>
+            <div class="form-group">
                 <label for="port" class="col-sm-2 control-label">Port<span style="color: red"> *</span></label>
                 <div class="col-sm-4">
                     <input type="text" class="form-control" id="port" name="port" placeholder="Port">
@@ -80,7 +92,13 @@
                 <select name="type" id="type">
                     <option value="hysical">物理机</option>
                     <option value="virtual">虚拟机</option>
-		</select>
+		        </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="ip" class="col-sm-2 control-label">实例名<span style="color: red"> </span></label>
+                <div class="col-sm-4">
+                    <input type="text" class="form-control" id="instance" name="instance" placeholder="虚拟机的实例名">
                 </div>
             </div>
             <div class="form-group">
